@@ -1,0 +1,74 @@
+/* styles */
+
+header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1em;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+}
+
+body {
+  background-color: black;
+}
+
+footer {
+  background-color: black;
+}
+
+img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid yellow;
+}
+
+h1 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 3em;
+  text-align: center;
+  color: yellow;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  color: yellow;
+  text-decoration: underline;
+}
+h2 b {
+  color: red;
+  font-style: italic;
+  text-decoration:underline;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(9, 231, 9);
+}
+
+/* Donation Button Styles */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: red; /* Green color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(8, 242, 8); /* Darker green on hover */
+}
+
+button:active {
+  background-color: red;
+}
